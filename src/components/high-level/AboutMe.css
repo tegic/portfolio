@@ -1,0 +1,50 @@
+.about-me-main-container{
+    background-image: url('/src/img/about-me-background.svg'); /* path to your file */
+     background-repeat: no-repeat;
+     background-size: 30vw;
+     background-position: center right;
+     /* min-height: 80vh; */
+}
+
+.about-me-photo-and-text-container{
+    width: 80vw;
+    max-width: 1024px;
+    margin: 70px auto 0 auto;
+    /* text-align: justify; */
+    text-indent: 2em;
+    min-height: 270px;
+    vertical-align: middle;
+}
+
+.my-photo{
+    width: 250px;
+    float: left;
+    margin: 0px 30px 10px 10px;
+}
+
+
+@media (max-width: 768px) {
+  .about-me-main-container{
+    background-image: url('/src/img/about-me-background.svg'); /* path to your file */
+     background-repeat: no-repeat;
+     background-size: 30vw;
+     background-position: top right;
+     /* min-height: 80vh; */
+}
+
+  .about-me-photo-and-text-container{
+    width: 80vw;
+    max-width: 1024px;
+    margin: 30px auto 0 auto;
+    /* text-align: justify; */
+    text-indent: 2em;
+    min-height: 270px;
+    vertical-align: middle;
+  }
+
+  .my-photo {
+    float: none;
+    display: block;
+    margin: auto;
+  }
+}

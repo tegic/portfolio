@@ -1,0 +1,79 @@
+.navbar-main-container{
+    display: flex;
+    position: relative;
+    white-space: nowrap;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    position: absolute;
+    margin-top: 10px;
+    translate: 50%;
+}
+
+.normal-nav-bar-link, .acitve-nav-bar-link{
+    color: black;
+    display: flex;
+    font-size: 31px;
+    font-family: 'Inria Serif', serif;
+    text-decoration: none;
+    padding: 1px 10px;
+    font-style: italic;
+}
+
+
+.acitve-nav-bar-link{
+    color: white;
+    background-color: rgba(87, 87, 87, 1);
+    border-radius: 100px;
+}
+
+.normal-nav-bar-link svg, .acitve-nav-bar-link svg{
+    margin: auto 5px auto auto;
+}
+
+.acitve-nav-bar-link svg{
+    fill: white;
+}
+
+.logo-text{
+    color: black;
+    display: flex;
+    font-size: 31px;
+    font-family: 'Inria Serif', serif;
+    margin: 13px 0px 0px 20px;
+}
+
+.logo-text-name{
+    color: black;
+    display: flex;
+    font-size: 12px;
+    font-family: 'Inria Serif', serif;
+    margin: auto 0px 0px 0px;
+}
+
+.logo-and-name-container{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+  .logo-and-name-container {
+    display: flex;
+  }
+  
+  .navbar-main-container{
+    display: block;
+  }
+
+  .navbar-container{
+    display: inline;
+    position: relative;
+  }
+
+  .navbar-container a{
+    width: 92vw;
+    margin: auto;
+  }
+}

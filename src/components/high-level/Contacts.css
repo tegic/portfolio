@@ -1,0 +1,35 @@
+.contacts-main-container{
+     background-image: url('/src/img/contact-background.svg'); /* path to your file */
+     background-repeat: no-repeat;
+     background-size: 30vw;
+     background-position: bottom right;
+     min-height: 80vh;
+}
+
+.contacts-container{
+     width: 80vw;
+     max-width: 1024px;
+     margin: 70px auto 0 auto;
+}
+
+.contacts-container div{
+     font-weight: bold;
+     font-size: 20px;
+     margin: 0 0 50px 0;
+}
+
+
+@media (max-width: 768px) {
+  .contacts-main-container {
+    background-position: center right;
+    min-height: 50vh;
+  }
+
+  .contacts-container div{
+     margin: 0 0 50px 0;
+  }
+
+  .contacts-container{
+     margin-top: 20px;
+  }
+}
