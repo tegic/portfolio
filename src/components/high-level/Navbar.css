@@ -14,7 +14,9 @@
 }
 
 .normal-nav-bar-link, .acitve-nav-bar-link{
+    position: relative;
     color: black;
+    overflow: hidden;
     display: flex;
     font-size: 31px;
     font-family: 'Inria Serif', serif;
@@ -23,19 +25,40 @@
     font-style: italic;
 }
 
+.acitve-nav-bar-link div, .acitve-nav-bar-link svg{
+    z-index: 2;
+    color: ;
+}
 
-.acitve-nav-bar-link{
-    color: white;
+.normal-nav-bar-link::before, .acitve-nav-bar-link::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(87, 87, 87, 1);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.acitve-nav-bar-link::before{
     background-color: rgba(87, 87, 87, 1);
     border-radius: 100px;
+    transform: scaleX(1);
+    z-index: 2;
 }
+
 
 .normal-nav-bar-link svg, .acitve-nav-bar-link svg{
     margin: auto 5px auto auto;
 }
 
 .acitve-nav-bar-link svg{
-    fill: white;
+    fill: rgb(217, 217, 217);
+}
+
+.acitve-nav-bar-link div{
+  color: rgb(217, 217, 217);
 }
 
 .logo-text{
