@@ -165,8 +165,105 @@ a{
     padding-right: calc(15% / 2 - 20px);
 }
 
+.contacts-email-data-desktop{
+     display: flex;
+     margin-left: 0 !important;
+}
+
+.contacts-email-data-mobile{
+     display: none;
+     margin-left: 0 !important;
+}
+
+.contacts-github-desktop{
+     display: block;
+}
+.contacts-github-mobile{
+     display: none;
+}
+
+.inner-contacts-github-link a{
+     display: flex;
+}
+
+@media (max-width: 1150px) {
+     .contacts-main-container{
+          flex-direction: column;
+     }
+
+     .contacts-container-for-photo{
+          width: 100%;
+          display: none;
+     }
+
+     .contacts-data {
+          width: 100%;
+          padding-top: 0px;
+     }
+
+     .contacts-github, .contacts-social-media, .contacts-email{
+          width: 100%;
+          margin: 0 0 0 0;
+          padding: 0 0 0 0;
+          flex-direction: column;
+          width: 100%;
+          border-top: 0;
+     }
+
+     .contacts-github, .contacts-social-media, .contacts-email{
+          padding-top: 22px;
+          margin-left: 20px;
+          max-width: max-content
+     }
+
+     .contacts-github-link{
+          font-size: 35px;
+     }
+
+     .contacts-github-link svg {
+          height: 0.8em;
+          padding: 0;
+          margin: 0 0 -2px 1px;
+     }
+
+     .contacts-sm-data div, .contacts-email-data div {
+          font-size: 24px;
+          margin-left: 40px;
+     }
+
+     .contacts-sm-label, .contacts-email-label{
+          margin-bottom: 12px;
+
+     }
+     .contacts-sm-label div, .contacts-email-label div {
+          border-radius: 1em;
+          padding: 10px 20px;
+          font-size: 30px;
+          width: 7em;
+     }
 
 
-@media (max-width: 768px) {
+     .contacts-email-data-desktop{
+          display: none;
+     }
 
+     .contacts-email-data-mobile{
+          display: flex;
+     }
+
+     .contacts-email-data-mobile svg{
+          margin: 0 0 -3px 4px;
+     }
+
+     .contacts-github-desktop{
+          display: none;
+     }
+
+     .contacts-github-mobile{
+          display: block;
+     }
+
+     .contacts-last-updated{
+          margin: 40px 0 10px auto;
+     }
 }
