@@ -2,7 +2,7 @@
      background-image: url('/src/img/contact-background.svg'); /* path to your file */
      background-repeat: no-repeat;
      background-size: 30vw;
-     background-position: bottom right;
+     background-position: center right;
      min-height: 80vh;
      animation: fadeIn 0.4s ease forwards;
      opacity: 0;
@@ -264,6 +264,6 @@ a{
      }
 
      .contacts-last-updated{
-          margin: 40px 0 10px auto;
+          margin: 140px 0 10px auto;
      }
 }
