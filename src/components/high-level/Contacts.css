@@ -186,6 +186,11 @@ a{
      display: flex;
 }
 
+
+.contacts-email-data-desktop svg{
+     margin: 12px 0 0 6px;
+}
+
 @media (max-width: 1150px) {
      .contacts-main-container{
           flex-direction: column;
