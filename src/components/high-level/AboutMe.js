@@ -16,7 +16,7 @@ const AboutMe = () => {
   </div>
 
   <div className="about-me__education">
-    <p>I hold a Junior Software Developer degree from Kharkiv College of Patents and Computers, where I completed hands-on projects involving embedded systems, databases, and full-stack applications. Currently, I’m studying Informatics at Poznań University of Technology, and I'm an active member of the PUTrequest Computer Technologies group.</p>
+    <p>I hold a Junior Software Developer degree from Kharkiv College of Patents and Computers, where I completed hands-on projects involving embedded systems, databases, and full-stack applications.</p>
   </div>
 
   <div className="about-me__skills">
