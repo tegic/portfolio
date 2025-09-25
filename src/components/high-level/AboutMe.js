@@ -18,6 +18,8 @@ const AboutMe = () => {
   <div className="about-me__education">
     <p>I hold a Junior Software Developer degree from Kharkiv College of Patents and Computers, where I completed hands-on projects involving embedded systems, databases, and full-stack applications.</p>
   </div>
+  <br />
+  <br />
 
   <div className="about-me__skills">
     <p>My technical toolkit includes:</p>
@@ -40,7 +42,7 @@ const AboutMe = () => {
 
 
   <div className="about-me__languages">
-    <p><strong>Languages:</strong> Ukrainian (native), Russian (native), English (B2), Polish (B2)</p>
+    <p><strong>Languages:</strong> Ukrainian (native), Russian (native), English (C1), Polish (C1)</p>
   </div>
 </div>
 
